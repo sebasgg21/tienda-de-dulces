@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Dulces</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a la Tienda de Dulces</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Inicio</h2>
+        <p>¡Descubre los dulces más deliciosos y frescos en nuestra tienda!</p>
+    </section>
+
+    <section id="about">
+        <h2>Nosotros</h2>
+        <p>Somos una tienda de dulces con más de 10 años de experiencia, ofreciendo productos de alta calidad y sabor único.</p>
+    </section>
+
+    <section id="products">
+        <h2>Productos</h2>
+        <div class="product">
+            <h3>Caramelos</h3>
+            <p>Los mejores caramelos de sabores variados.</p>
+        </div>
+        <div class="product">
+            <h3>Chocolates</h3>
+            <p>Deliciosos chocolates artesanales.</p>
+        </div>
+        <div class="product">
+            <h3>Gomitas</h3>
+            <p>Gomitas de frutas en diversas formas y sabores.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form action="#" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tienda de Dulces. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
